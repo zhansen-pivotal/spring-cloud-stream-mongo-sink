@@ -3,7 +3,7 @@ package io.pivotal.spring.dataflow.mongo.sink;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties
+@ConfigurationProperties("mongo")
 public class MongoSinkProperties {
 
     /**
