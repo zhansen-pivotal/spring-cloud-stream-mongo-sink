@@ -1,7 +1,7 @@
 # spring-cloud-stream-mongo-sink
 A Spring Cloud Dataflow Stream sink for MongoDB. 
 
-**Options**
+##**Options**
 
 The **mongo-sink** has the following options:
 
@@ -18,7 +18,7 @@ The **mongo-sink** has the following options:
        * _The Mongo Database collection to write out data. <**DEFAULT** : default>_
  
 
-**Build**
+##**Build**
 
 ```
 $ mvn clean package
